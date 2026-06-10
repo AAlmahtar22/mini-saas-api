@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Database Files (Legacy files)
+saas.db
+*.db
+
+# Environment Credentials (CRITICAL: Never leak your production keys)
+.env
+.env.*
+
+# macOS system files
+.DS_Store
