@@ -2,7 +2,7 @@
 
 A robust, production-ready REST API backend for a SaaS application built with **FastAPI**. This backend handles secure user authentication, JWT session token management, database migrations, and isolated task management workflows.
 
-## 🚀 Key Features
+## Key Features
 
 *   **Secure Authentication:** User registration and login utilizing cryptographically hashed passwords.
 *   **JWT Bearer Security:** Completely custom HTTP Bearer token scheme for secure endpoint locking.
@@ -13,7 +13,7 @@ A robust, production-ready REST API backend for a SaaS application built with **
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 *   **Framework:** [FastAPI](https://tiangolo.com)
 *   **Database:** [PostgreSQL](https://postgresql.org)
@@ -23,7 +23,7 @@ A robust, production-ready REST API backend for a SaaS application built with **
 
 ---
 
-## 📦 Directory Structure
+## Directory Structure
 
 ```text
 ├── app/
@@ -47,7 +47,7 @@ A robust, production-ready REST API backend for a SaaS application built with **
 
 ---
 
-## 🔧 Local Development Installation
+## Local Development Installation
 
 ### 1. Clone the Project & Navigate
 ```bash
@@ -84,11 +84,11 @@ The server will spin up on **`http://127.0.0.1:8000`**.
 
 ---
 
-## 📖 API Documentation & Testing
+## API Documentation & Testing
 
 Once your Uvicorn runtime server boots up, you can view the fully interactive, clean **HTTP Bearer layout documentation page** at:
 
-👉 **`http://127.0.0`**
+ **`http://127.0.0`**
 
 ### Recommended Testing Flow:
 1. Submit a JSON payload to `POST /auth/register` to create an account.
