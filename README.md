@@ -1,15 +1,14 @@
-# Mini SaaS API Gateway
+# Mini SaaS API (FastAPI)
 
-A robust, production-ready REST API backend for a SaaS application built with **FastAPI**. This backend handles secure user authentication, JWT session token management, database migrations, and isolated task management workflows.
-
+A practice REST API for a task-tracking app, built with FastAPI, PostgreSQL, and SQLAlchemy. It handles user registration and login, JWT bearer token authentication, database migrations, and per-user task management.
 ## Key Features
 
-*   **Secure Authentication:** User registration and login utilizing cryptographically hashed passwords.
-*   **JWT Bearer Security:** Completely custom HTTP Bearer token scheme for secure endpoint locking.
-*   **Database Management:** Relational data persistence powered by **PostgreSQL** and orchestrated by **SQLAlchemy ORM**.
-*   **Automated Migrations:** Database schema tracking and changes managed incrementally via **Alembic**.
-*   **User Data Isolation:** Built-in multi-tenant logic ensuring users can only read/write their own data rows.
-*   **Interactive Documentation:** Auto-generated interactive API playgrounds via Swagger UI.
+* **Authentication: User registration and login with hashed passwords.**
+* **JWT bearer tokens: Protected endpoints require a valid token.**
+* **PostgreSQL and SQLAlchemy: Data stored in PostgreSQL and accessed through the SQLAlchemy ORM.**
+* **Migrations: Database schema changes tracked with Alembic.**
+* **Per-user data: Each user can only read and change their own tasks.**
+* **Interactive docs: Auto-generated Swagger UI.**
 
 ---
 
