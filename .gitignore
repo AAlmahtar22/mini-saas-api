@@ -13,7 +13,8 @@ saas.db
 
 # Environment Credentials (CRITICAL: Never leak your production keys)
 .env
-.env.*
+.env.* 
+!.env.example
 
 # macOS system files
 .DS_Store
